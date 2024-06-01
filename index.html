@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="section">
+        <div class="section1">
+            <h1>Number Guessing Game</h1>
+            <img src="https://media.tenor.com/images/7ad6c940267a64a53446dbf72fb99197/tenor.gif" alt="guess">
+            <p class="start">Click to start</p>
+            <button class="btn" id="playGame">Play Game</button>
+        </div>
+        <div class="section2">
+            <h1>Number Guessing Game</h1>
+            <p>Try to guess a number between 1 and 100</p>
+            <form>
+                <input type="text" id="guessField" placeholder="Enter here">
+                <br>
+                <!-- <button class="btn" id="subt">Submit</button> -->
+                <input type="submit" class="btn" id="subt">
+            </form>
+            <div class="resultPara">
+                <p>Previous Guesses : <span class="guesses"></span></p>
+                <p>Attempts : <span class="attempts">10</span></p>
+                <p class="lowOrHigh"></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
